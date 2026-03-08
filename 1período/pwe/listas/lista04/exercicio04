@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Iara Dias Dos Santos">
+    <meta name="description" content="Formatando textos utilizando tags">
+    <meta name="keywords" content="programação web, html, css">
+    <title>Iara Dias Dos Santos</title>
+
+      <!-- <meta http-equiv="" content="">-->
+      <!-- <meta property="" content=""> -->
+
+</head>
+
+<body style="background-color: rgb(214, 227, 188);margin-top: 30px; margin-left: 50px;">
+
+
+ <h1 style="text-align: center;color:rgb(54, 96, 145);font-family: Verdana;">SISTEMAS PARA INTERNET </h1>
+ 
+
+<p style="font-family: Tahoma;"><b style="color: red; font-size: 24px;"> A </b>formatação deste texto utiliza tags <strong>HTML</strong> para <del>configurá-lo</del> <ins>formatá-lo</ins>. Porém, há <span style="color: red;"><i>tecnologias melhores</i></span> para fazer isso, como por exemplo <b style="color: red;"><i>CSS<sup>3</sup></i></b></p>
+
+</body>
+</html>
