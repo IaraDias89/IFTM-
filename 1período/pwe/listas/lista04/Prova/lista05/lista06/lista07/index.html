@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+ <html lang="pt-br">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista07</title>
+ </head>
+ <body style="font-family: 'Franklin Gothic Medium';">
+    <form style="max-width: 500px;">
+      <fieldset style="border:2px solid rgb(10, 161, 113); border-radius: 8px; 20px">
+       <legend style="padding: 0 10px; color: rgb(134, 138, 185);">CADASTRO</legend>
+ 
+        
+      <label for="nome"><b>Nome: </label></b>
+      <input type="text" name="usuario-nome" required>
+     <br>
+
+      <label for="sexo"><b>Sexo: </label></b>
+      <input type="radio" id="fem" name="sexo" value="feminino" required>
+      <label for="fem">Feminino</label>
+      <input type="radio" id="masc" name="sexo" value="masculino" required>
+      <label for="masc">Masculino</label>
+
+      <br>
+      <label for="Telefone"><b>Telefone: </label></b>
+      <input type="tel" name="telefone" required placeholder="(99) 9999-9999">
+      <br>
+      <label for="estadocivil"><b>Estado Civil: </label></b>
+      <select id="estado-civil" name="estado-civil" required>
+            <option value=" " disabled select hidden>Escolha uma opção</option>
+            <option value="solteiro">Solteiro(a)</option>
+            <option value="casado">Casado(a)</option>
+            <option value="Divorciado">Divorciado(a)</option>
+            <option value="Viúvo">Viúvo(a)</option>
+       </select>
+     <br>
+       <div>
+        <label for="email-usuario"><b>E-mail:</label></b>
+        <input type="email" name="email" required placeholder="exemplo@email.com">
+       </div>
+        <label for="endereço"><b>Endereço: </label></b>
+        <input type="text" name="endereço" required>
+        <label for="numero-casa"><b>Número: </label></b>
+        <input type="number" name="Numero" min="1" max="9999" required>
+         <label for="numero-casa"><b>Complemento: </label></b>
+        <input type="number,text" name="completo">
+        <br>
+        <label for="cep"><b>CEP: </label></b>
+        <input type="text" name="cep" required placeholder="00000-000" required>
+        <br>
+        <label for="datanascimento"><b>Data de Nascimento:</label></b>
+        <input type="date" id="datanascimento" name="data_nascimento" required>
+        </div>
+     <br>
+       <button type="submit"><b>Cadastrar</button></b>
+       <button type="reset"><b>Limpar</button></b>
+             </fieldset>
+    </form>
+
+
+ </body>
+ </html>
