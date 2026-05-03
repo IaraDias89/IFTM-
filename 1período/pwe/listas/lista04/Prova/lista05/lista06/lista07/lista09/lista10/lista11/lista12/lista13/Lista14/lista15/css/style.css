@@ -1,0 +1,96 @@
+@import  url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+.oswald {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+body {
+    font-family: "Oswald";
+}
+
+
+ul {
+    background-color: black;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 0;
+} 
+
+
+ul li {
+  width: 150px;
+  text-align: center;
+}
+
+
+
+
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+    padding-bottom: 10px;
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: 40px ;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 100px;
+
+}
+
+
+
+.Facebook a {
+    background-image: url('../imagens/faceBlack.png');
+}
+
+.Facebook a:hover {
+    color: rgb(74, 74, 241);
+    background-image: url('../imagens/face.png');
+}
+
+.Instagram a {
+    background-image: url('../imagens/instaBlack.png');
+}
+ 
+.Instagram a:hover {
+    color: rgb(125, 7, 235);
+    background-image: url('../imagens/insta.png');
+}
+
+.Google a {
+    background-image: url('../imagens/mapsBlack.png');
+
+}
+ 
+.Google a:hover {
+    color: green;
+    background-image: url('../imagens/maps.png');
+}
+
+.Twitter a {
+    background-image: url('../imagens/twitterBlack.png');
+}
+
+.Twitter a:hover {
+    color: yellow;
+    background-image: url('../imagens/twitter.png');
+}
+
+.Youtube a {
+    background-image: url('../imagens/youtubeBlack.png');
+}
+
+.Youtube a:hover {
+    color: red;
+    background-image: url('../imagens/youtube.png');
+}
