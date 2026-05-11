@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box
+}
+
+.box {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(223, 217, 217, 0.9);
+    /*position: absolute;*/
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    top: 0px;
+    /*left: 0px; */
+    /* top:60px */
+    /* top:20px */
+    bottom: 0px;
+    /* right: 10px; */
+    cursor: pointer;
+    transition: all 0.5s;
+    background-image: url('../imagens/whats.jpg');
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+
+}
