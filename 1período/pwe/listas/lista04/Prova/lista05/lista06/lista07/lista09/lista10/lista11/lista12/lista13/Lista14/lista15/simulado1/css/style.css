@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.topo {
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    align-items: center;
+    border-bottom: 20px;
+
+
+}
+
+.topo ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+
+}
+
+.topo a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.azul {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.container {
+    border: 4px solid orangered;
+    margin: auto;
+    border-radius: 6px;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
+.container h1 {
+    color: black;
+    font-weight: bold;
+}
+
+.container p {
+    color: red;
+    font-weight: bold;
+}
+
+.cards {
+    display: grid;
+    text-decoration-style: none;
+    gap: 30px;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 20px;
+
+
+
+}
+
+.cards a {
+    color: orangered;
+    text-decoration: double;
+    font-weight: bold;
+
+
+}
+
+.cards img {
+    width: 100%;
+    height: 200px;
+}
+
+
+
+
+
+.modelos {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 0px 20px 30px;
+    gap: 30px;
+
+}
+
+.modelos>div>div {
+    display: grid;
+    flex-direction: row;
+    grid-template-columns: 200px 1 fr;
+    gap: 20px;
+}
+
+footer {
+    background-color: rgb(124, 29, 29);
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
