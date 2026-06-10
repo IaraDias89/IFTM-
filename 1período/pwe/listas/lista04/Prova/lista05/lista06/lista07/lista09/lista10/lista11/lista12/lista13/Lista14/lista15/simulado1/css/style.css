@@ -7,7 +7,7 @@
 .topo {
     background-color: orangered;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     height: 30px;
     align-items: center;
     border-bottom: 20px;
@@ -28,6 +28,11 @@
 
 }
 
+.topo a:hover {
+    background-color: white; 
+    color: orangered; 
+    padding: 5px 8px;
+}
 .azul {
     background-color: blue;
     display: flex;
@@ -108,7 +113,11 @@ display: grid;
 }
 
 
-
+.cards summary {
+    color: orangered;
+    font-weight: bold;
+    cursor: pointer;
+}
 
 
 .modelos {
@@ -136,4 +145,5 @@ footer {
     color: white;
     padding: 15px;
 }
+
 
