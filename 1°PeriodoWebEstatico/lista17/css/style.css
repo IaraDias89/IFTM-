@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+header nav ul{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: darkblue;
+}
+header nav ul li {
+    list-style: none;
+    text-align: center;
+}
+
+header a:link, header a:visited {
+    color: white;
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+.imgApresentacao {
+    background-image: url('../img/topo.png');
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+section {
+    width: 100%;
+    padding: 30px;
+}
+
+section p {
+    text-align: justify;
+}
+
+section h2, section h3 {
+    margin: 20px 0px;
+}
+
+section button {
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 20px 0px;
+    border: none;
+}
+
+.btnPreto {
+    background-color: black;
+}
+
+.btnAzul {
+    background-color: darkblue;
+}
+
+section button:hover {
+    background-color: orangered;
+    cursor: pointer;
+}
+
+.compromissos img {
+    width: 40px;
+}
+
+section:nth-of-type(odd) {
+    background-color: white;
+}
+
+section:nth-of-type(even) {
+    background-color: rgb(218, 218, 218);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.mobilidade > div > div, .quemSomos > div > div {
+    text-align: center;
+}
+.mobilidade img {
+    width: 100%;
+    margin: 25px 0px;
+}
+
+.agenda img {
+    width: 90%;
+}
+
+.agenda > div > div:nth-of-type(2) {
+    text-align: center;
+    padding-top: 50px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+@media screen and (min-width: 768px) {
+    section {
+        width: 1100px;
+        margin: auto;
+    }
+    .container {
+        flex-direction: row;
+        gap: 40px;
+    }
+    .mobilidade img {
+        width: 90%;
+    }
+    .agenda img {
+        width: 90%;
+    }
+    .agenda > div > div {
+       width: 50%;        
+    }
+}
