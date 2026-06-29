@@ -447,7 +447,7 @@ section > div {
     height: 220px;
     object-fit: cover;
     border-radius: 6px;
-    box-shadow: 0px 5px 15 px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 .secao-unica-biblioteca {
@@ -503,7 +503,7 @@ section > div {
     padding: 25px;
     margin-bottom: 25px;
     background-color: #fcfbfa;
-    margin-top: 25px; /
+    margin-top: 25px;
 }
 
 .meu-formulario fieldset legend {
