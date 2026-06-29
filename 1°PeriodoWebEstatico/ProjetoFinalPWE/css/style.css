@@ -430,15 +430,6 @@ section > div {
     line-height: 1.7;
 }
 
-
- 
-.conteudo-flex {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    padding: 30px; 
-}
-
 .conteudo-flex {
     display: flex;
     align-items: center;
