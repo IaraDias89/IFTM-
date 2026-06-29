@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>SUGESTÕES</title>
+</head>
+<body>
+    <header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="historia.html">História</a></li>
+            <li><a href="biblioteca.html">Biblioteca</a></li>
+            <li><a href="livros.html">Livros</a></li>
+            <li><a href="sugestoes.html">Sugestões</a></li>
+        </ul>
+    </nav>
+</header>
+    <main>
+           <section class="capa-sugestoes"></section>
+           <section class="formulario-sugestoes">
+        <div>
+            <h2>Envie sua Indicação Literária</h2>
+            <p>Compartilhe seu conhecimento conosco preenchendo o formulário abaixo.</p>
+            
+            <form action="index.html" method="GET" class="meu-formulario">
+
+        <fieldset>
+            <legend>Dados do Leitor</legend>
+            <label for="txtNome">Seu Nome:</label>
+            <input type="text" id="txtNome" name="txtNome" placeholder="Digite seu nome completo" required>
+            <label for="txtEmail">Seu E-mail:</label>
+            <input for="email" id="txtEmail" name="txtEmail" placeholder="exemplo@email.com" required>
+        </fieldset>  
+        
+       <fieldset>
+             <legend>Sua indicação Literária</legend>
+             <label for="selTipo">Tipo de Sugestão:</label>
+             <select id="selTipo" name="selTipo" required>
+                <option value="">Selecione uma opção...</option>
+                <option value="livro">Livro /  Obra</option>
+                <option value="biblioteca">Biblioteca</option>
+                <option value="autor">Autor / Poeta</option>
+             </select>
+
+
+             <label for="txtTitulo">Título da Obra / Nome do Local:</label>
+             <input type="text" id="txtTitulo" name="txtTitulo" placeholder="Ex: A Rosa do Povo" required>
+             <label for="txtMotivo">Por que você indica?</label>
+             <textarea id="txtMotivo" name="txtMotivo" rows="5"placeholder="Conte-nos o motivo da sua indicação..." required></textarea>   
+       </fieldset>
+        
+       <div class="botoes-form">
+        <button type="submit" class="btn-enviar">Enviar Sugestão</button>
+        <button type="reset" class="btn-limpar">Limpar Formuário</button>
+</div>
+                
+            </form>
+        </div> 
+    </section> 
+</main>
+
+    <footer>
+    <div class="faixa-livros-rodape">
+        <img src="imagens/mini-livro1.jpg" alt="Livro decorativo antigo">
+        <img src="imagens/mini-livro2.jpeg" alt="Livro decorativo antigo">
+        <img src="imagens/mini-livro3.jpg" alt="Livro decorativo antigo">
+        <img src="imagens/mini-livro4.jpg" alt="Livro decorativo antigo">
+        <img src="imagens/mini-livro5.webp" alt="Livro decorativo antigo">
+        <img src="imagens/mini-livro6.webp" alt="Livro decorativo antigo">
+        <img src="imagens/mini-livro7.webp" alt="Livro decorativo antigo">
+        <img src="imagens/mini-livro8.webp" alt="Livro decorativo antigo">
+    </div>
+
+    <div class="conteudo-rodape">
+        <p>&copy; 2026 Universo dos Livros. Todos os direitos reservados.</p>
+        <p class="creditos-rodape">Desenvolvido com carinho para o Projeto Final - PWE (1º Período)- Professor Wilton.</p>
+    </div>
+</footer>
+</body>
+</html>
