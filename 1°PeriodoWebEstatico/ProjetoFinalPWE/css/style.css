@@ -671,3 +671,8 @@ main > .livros-poesia > div {
     background-color: transparent !important;
     box-shadow: none !important;  
 }
+
+.livros-distopia .conteudo-flex,.livros-fantasia .conteudo-flex,.livros-classico .conteudo-flex,.livros-poesia .conteudo-flex {
+gap: 20px;  
+
+}
