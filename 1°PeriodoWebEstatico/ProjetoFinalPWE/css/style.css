@@ -433,7 +433,7 @@ section > div {
 .conteudo-flex {
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 20px;
     text-align: left;
 }
 
