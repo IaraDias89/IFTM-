@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Sorteio de Números</title>
+</head>
+<body>
+    <h1>Sorteio de Números</h1>
+
+    <img th:src="@{/images/imagem.png}" alt="Sorteio" width="200">
+
+    <form th:action="@{/gerarnumeros}" method="get">
+        <button type="submit">Sortear números</button>
+    </form>
+
+    <div th:if="${numeros != null}">
+        <h2>Números sorteados:</h2>
+        <ul>
+            <li th:each="n : ${numeros}" th:text="${n}"></li>
+        </ul>
+    </div>
+</body>
+</html>
