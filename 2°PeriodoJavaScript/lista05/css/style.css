@@ -1,0 +1,68 @@
+#caixa {
+    border: 3px solid green;
+    color: green;
+    width: 480px;
+    margin: 0 auto;
+    padding: 25px;
+
+}
+
+#nome {
+    border: none;
+    border-bottom: 2px solid green;
+    outline: none;
+    color: green;
+    width: 300px;
+}
+
+#btnEntrar {
+    display: block;
+    margin: 12px auto;
+    width: 215px;
+    height: 34px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: none;
+}
+
+#titulo {
+    color: green;
+    text-align: center;
+}
+
+#btnConvidado {
+    display: block;
+    margin: 0 auto;
+    width: 365px;
+    height: 34px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+
+#container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.coluna {
+    width: 150px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.coluna img {
+    width: 100px;
+}
+
+#btnSorte {
+    background-color: darkred;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 3px 12px;
+}
