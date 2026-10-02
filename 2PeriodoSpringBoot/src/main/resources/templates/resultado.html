@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Resultado do Sorteio</title>
+</head>
+<body>
+    <h1>Números Sorteados:</h1>
+    <ul>
+        <li th:text="${n}" th:each="n : ${numeros}">Número</li>
+    </ul>
+    
+    <br>
+    <a href="/">Voltar</a>
+</body>
+</html>

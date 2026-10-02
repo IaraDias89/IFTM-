@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box
+}
+
+.box {
+    /*position: absolute;*/
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    /*left: 0px; */
+    /* top:60px */
+    /* top:20px */
+    /* right: 10px; */
+    background-image: url('../imagens/whatsapp.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+
+}

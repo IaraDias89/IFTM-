@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: orangered;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a:link, header ul li a:visited {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+} 
+header ul li a:hover {
+    background-color: white;
+    color: orangered;
+}
+
+.section_apresentacao {
+    background-color: darkblue;
+}
+
+.section_apresentacao > div {
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    border:5px solid orangered;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.section_apresentacao h1 {
+    font-size: 24px;
+}
+
+.section_apresentacao img {
+    width: 70%;
+}
+
+.section_apresentacao p {
+    color: red;
+    font-weight: bold;
+}
+
+section {
+    padding: 40px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section_celulares {
+    text-align: center;
+}
+.section_celulares details, .section_celulares p{
+    text-align: justify;
+}
+.section_celulares summary {
+    color: orangered;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 20px 0px;
+}
+
+.section_celulares h2 {
+    margin: 10px 0px 20px 0px;
+}
+
+.section_descricao h2 {
+    margin: 30px 0px;
+}
+.section_descricao p{
+    margin: 20px 0px;
+}
+
+.section_descricao {
+    padding-top: 10px;
+}
+
+footer {
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.section_celulares img:hover {
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    header ul {
+        justify-content: right;
+    }
+    section > div {
+        width: 1200px !important;
+        margin: auto;
+    }
+    .section_apresentacao p {
+        font-size: 20px;
+    }
+    .section_apresentacao h1 { 
+        font-size: 30px;
+    }
+    .section_apresentacao p, .section_apresentacao h1 {
+        margin: 5px 0px;
+    }
+    .container {
+        flex-direction: row;
+    }
+}
