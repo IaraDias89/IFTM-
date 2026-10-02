@@ -1,0 +1,26 @@
+/* Centraliza a tabela na tela e adiciona a borda ao redor */
+table {
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #000;
+}
+
+/* Formatação exata do título "Acesso ao Sistema" */
+h2 {
+    font-size: 24px;
+    color: blue;
+    font-family: Verdana, sans-serif;
+    text-align: center;
+}
+
+/* Formatação do texto de aviso ao lado das senhas */
+.aviso {
+    color: red;
+    font-family: Verdana, sans-serif;
+    font-size: 10px;
+}
+
+/* Centraliza os botões na última linha da tabela */
+tr:last-child td {
+    text-align: center;
+}
