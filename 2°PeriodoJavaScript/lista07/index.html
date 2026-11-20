@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <script src="jMaskWiFi/js/jMaskWiFi.js"></script>
+    <title>Lista de Exercícios - Expressões Regulares</title>
+</head>
+<body>
+    <h1>JavaScript - Expressões Regulares</h1>
+    <form>
+        <div class="linha">
+            <label for="txtNascimento">a) Data de nascimento: </label>
+            <input type="text" id="txtNascimento" value="25/12/2000">
+            <input type="button" value="Validar" id="btnNascimento">
+        </div>
+
+        <div class="linha">
+            <label for="txtCpf">b) CPF (jMaskWiFi): </label>
+            <input type="text" id="txtCpf" value="123.456.789-09" onkeypress="inserirMascara('txtCpf','000.000.000-00')">
+            <input type="button" value="Validar" id="btnCpf">
+        </div>
+
+        <div class="linha">
+            <label for="txtMatricula">c) Número de matrícula do aluno: </label>
+            <input type="text" id="txtMatricula" value="IFTM-123/456-A9">
+            <input type="button" value="Validar" id="btnMatricula">
+        </div>
+
+        <div class="linha">
+            <label for="txtDisciplina1">d) Código de disciplina do IFTM (jMaskWiFi): </label>
+            <input type="text" id="txtDisciplina1" value="mT-12.345-iFtM" onkeypress="inserirMascara('txtDisciplina1','00-00.000-0000')">
+            <input type="button" value="Validar" id="btnDisciplina1">
+        </div>
+
+        <div class="linha">
+            <label for="txtDisciplina2">e) Código de disciplina do IFTM - versão 2 (jMaskWiFi): </label>
+            <input type="text" id="txtDisciplina2" value="MT-12.345-iftm" onkeypress="inserirMascara('txtDisciplina2','00-00.000-0000')">
+            <input type="button" value="Validar" id="btnDisciplina2">
+        </div>
+
+        <div class="linha">
+            <label for="txtDisciplina3">f) Código de disciplina do IFTM - versão 3: </label>
+            <input type="text" id="txtDisciplina3" value="m T-12.345-I F tM">
+            <input type="button" value="Validar" id="btnDisciplina3">
+        </div>
+
+        <div class="linha">
+            <label for="txtCampus">g) Nome de campus do IFTM: </label>
+            <input type="text" id="txtCampus" value="IFTM campus Uberlândia Centro">
+            <input type="button" value="Validar" id="btnCampus">
+        </div>
+
+        <div class="linha">
+            <label for="txtTelefone1">h) Telefone (jMaskWiFi): </label>
+            <input type="text" id="txtTelefone1" value="+55(34)91234-5678" onkeypress="inserirMascara('txtTelefone1','+00(00)00000-0000')">
+            <input type="button" value="Validar" id="btnTelefone1">
+        </div>
+
+        <div class="linha">
+            <label for="txtTelefone2">i) Telefone - versão 2: </label>
+            <input type="text" id="txtTelefone2" value="(34) 91234-5678">
+            <input type="button" value="Validar" id="btnTelefone2">
+        </div>
+
+        <div class="linha">
+            <label for="txtAltura">j) Altura de uma pessoa: </label>
+            <input type="text" id="txtAltura" value="1,75">
+            <input type="button" value="Validar" id="btnAltura">
+        </div>
+
+        <div class="linha">
+            <label for="txtFaturamento">k) Faturamento anual de uma empresa: </label>
+            <input type="text" id="txtFaturamento" value="R$5.601.478,10">
+            <input type="button" value="Validar" id="btnFaturamento">
+        </div>
+
+        <div class="linha">
+            <label for="txtCronometro">l) Cronômetro (jMaskWiFi): </label>
+            <input type="text" id="txtCronometro" value="23:59:59:99" onkeypress="inserirMascara('txtCronometro','00:00:00:00')">
+            <input type="button" value="Validar" id="btnCronometro">
+        </div>
+    </form>
+</body>
+</html>
